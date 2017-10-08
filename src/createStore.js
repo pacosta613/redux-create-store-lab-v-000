@@ -7,7 +7,7 @@ export default function createStore(reducer) {
     render();
   }
 
-  function getState() {
+  function getState( { type: "22INIT" } ) {
     return state
   }
 
