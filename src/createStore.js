@@ -11,7 +11,7 @@ export default function createStore(reducer) {
     return state
   }
 
-  return { dispatch, getState }
+  return { dispatch, getState };
 
 }
 
